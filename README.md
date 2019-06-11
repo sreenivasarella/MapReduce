@@ -1,2 +1,2 @@
 # MapReduce
-Mapreduce Programming Paradigm
+MapReduce programming demonstrating Word Count application
