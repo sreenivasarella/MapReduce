@@ -8,11 +8,13 @@ MapReduce Programming Paradigm involves
 	
 Below are the three classes that are developed for word count application.
 
-1. TokenizerMapper Class:
-	This class implements custom business logic for Mapper Class. 
+1. TokenizerMapper.java:
+	Created TokenizerMapper class extending base Mapper class and implemented custom business logic for 
+	Mapper Class. 
 	
-2. IntSumReducer Class:
-	This class implements custome business logic for Reducer class.
+2. IntSumReducer.java:
+	Developed IntSumReducer class extending base Reducer class and implemented custom business logic for 
+	Reducer class.
 	
-3. WordCount Class:
-	This is the driver class for creating and submitting MapReduce job.
+3. WordCount.java:
+	Developed WordCount class which functions as driver class for creating and submitting MapReduce job.
