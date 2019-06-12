@@ -13,8 +13,7 @@ public class IntSumReducer extends Reducer <Text, IntWritable, Text, IntWritable
 
 	public void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException
 	{
-//		Hi	[1 1 1 1 1 1....]
-		
+	
 		int sum = 0;
 		for (IntWritable val : values)
 		{
